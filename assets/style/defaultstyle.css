@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Alegreya+Sans|Great+Vibes|Permanent+Marker');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #212020;
+  color: white;
+}
+
+#navbarwrapper{
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  height: 8vh;
+  min-height: 60px;
+  padding: 0px 200px 0px 200px;
+  display: flex;
+  justify-content: space-between;
+background: linear-gradient(#282626, #141313);
+  border-radius: 0px 0px 5px 5px;
+
+}
+
+.header {
+  font-family: 'Great Vibes', cursive;
+  color: 	#D4AF37;
+  flex-shrink: 0;
+  display: flex;
+
+  align-items: center;
+}
+
+
+.nav {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: white;
+  width: 500px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+
+}
+
+.spacing {
+  height: 8vh;
+}
+
+.nav a{
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+#AboutButton:hover{
+  background-color: #0267C1;
+}
+
+#SkillsButton:hover{
+  background-color: #F24236;
+}
+
+#GradesButton:hover{
+  background-color: #F18F01;
+}
+
+#WorkButton:hover{
+  background-color: #008148;
+}
+
+#about{
+  height: 92vh ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:5vh
+}
+
+#about_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2vh;
+  height: 60vh;
+  width: 60vw;
+  background-color: #0267C1;
+}
+
+
+#skills{
+  height: 92vh ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:5vh;
+}
+
+#skills_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2vh;
+  height: 60vh;
+  width: 60vw;
+  background-color: #F24236;
+}
+
+
+#grades{
+  height: 92vh ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:5vh;
+}
+
+#grades_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2vh;
+  height: 60vh;
+  width: 60vw;
+  background-color: #F18F01;
+}
+
+#workex{
+  height: 92vh ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size:5vh;
+}
+
+#workex_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2vh;
+  height: 60vh;
+  width: 60vw;
+  background-color: #008148;
+}
+
+#elements{
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+}
