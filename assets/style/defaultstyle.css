@@ -54,6 +54,7 @@ background: linear-gradient(#282626, #141313);
 }
 
 .nav a{
+  font-size: 20px;
   padding: 10px;
   border-radius: 5px;
 
